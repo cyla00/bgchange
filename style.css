@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'arenq';
+  src: url(fonts/Arenq.otf);
+}
+@font-face {
+  font-family: 'prime';
+  src: url('fonts/Prime-Regular.ttf');
+}
+body{
+  margin: 0px 5px 0px 5px;
+  background-image: url("img/output-onlineimagetools.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#titolo{
+  margin-top: 0px;
+  padding-top: 30px;
+  font-family: 'Arenq';
+  font-size: 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.container1{
+  background-attachment: fixed;
+}
+#menu1{
+  list-style-type:none;
+  font-family: 'Arenq';
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+.menu1Content{
+  margin: 20px 20px 20px 50px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+.menu1Content:hover{
+  background-color: rgba(255, 128, 128, 0.5);
+  padding: 5px 5px 5px 5px;
+  transition: 0.2s;
+  border-radius: 3px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.card{
+  margin: 30px 50px 30px 50px;
+  width: 680px;
+  padding: 20px 20px 20px 20px;
+}
+.card-title{
+  font-size: 30px;
+  font-family: 'Arenq';
+  color: #ffffff;
+}
+.card-title:hover{
+  background-color: rgba(255, 128, 128, 0.5);
+  padding: 5px 2px 5px 2px;
+  transition: 0.2s;
+  border-radius: 3px;
+}
+.card-text{
+  font-family: 'prime';
+  font-size: 20px;
+  color: #ffffff;
+}
+.infolink{
+  font-family: 'prime';
+  font-size: 20px;
+  color: #cca300;
+  text-decoration: none;
+
+}
