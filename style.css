@@ -16,6 +16,7 @@ body{
 }
 header{
   background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
 }
 #titolo{
   margin-top: 0px;
@@ -40,7 +41,7 @@ header{
 .menu1Content{
   margin: 20px 20px 20px 50px;
   text-decoration: none;
-  color: #ffffff;
+  color: #cca300;
   text-align: center;
 }
 .menu1Content:hover{
@@ -81,5 +82,20 @@ header{
   font-size: 20px;
   color: #cca300;
   text-decoration: none;
+}
 
+@media(max-width: 1200px) {
+  .menu1Content{margin: 20px 20px 20px 15px;}
+  .container{display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;}
+}
+
+@media(max-width: 700px) {
+  .menu1Content{margin: 10px 10px 10px 5px;}
+  .container{display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;}
 }
