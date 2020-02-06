@@ -9,6 +9,8 @@
 </head>
 <body>
   <div class="container1">
+
+                      <!-- HEADER -->
   <header>
     <h1 id="titolo">-||MadHatters||-</h1>
     <div class="containerMenu1">
@@ -21,12 +23,26 @@
     </div>
 </header>
   </div>
+
+                      <!-- SECTION 1 -->
 <section id="sezione1">
 <div class="container">
-  <div class="card">
+  <div id="htmlcard" class="card">
     <img src="img/html.png" class="card-img-top" alt="" width="200px" height="200px">
     <div class="card-body">
-      <h5 class="card-title">html</h5>
+      <h5 id="htmlcardtitle" class="card-title">html</h5>
+      <script>
+        document.getElementById("htmlcardtitle").addEventListener("mouseover", mouseOver);
+        document.getElementById("htmlcardtitle").addEventListener("mouseout", mouseOut);
+
+        function mouseOver() {
+          document.getElementById("htmlcardtitle").style.color = "#f8685f";
+        }
+
+        function mouseOut() {
+          document.getElementById("htmlcardtitle").style.color = "white";
+        }
+      </script>
       <p class="card-text">standard markup language<br>
         Web pages.<br>
         Text Markup Language.<br>
@@ -36,10 +52,22 @@
       <a class="infolink" href="https://www.w3schools.com/html/default.asp" class="card-text"><small class="text-muted">more infos.</small></a>
     </div>
   </div>
-  <div class="card">
+  <div id="csscard" class="card">
     <img src="img/css.png" class="card-img-top" alt="..." width="200px" height="200px">
     <div class="card-body">
-      <h5 class="card-title">css</h5>
+      <h5 id="csscardtitle" class="card-title">css</h5>
+      <script>
+        document.getElementById("csscardtitle").addEventListener("mouseover", mouseOver);
+        document.getElementById("csscardtitle").addEventListener("mouseout", mouseOut);
+
+        function mouseOver() {
+          document.getElementById("csscardtitle").style.color = "#f8685f";
+        }
+
+        function mouseOut() {
+          document.getElementById("csscardtitle").style.color = "white";
+        }
+      </script>
       <p class="card-text">Compatibility.<br>
       E-Commerce Domain.<br>
       Website Maintenance.<br>
@@ -50,10 +78,22 @@
       <a class="infolink" href="https://www.w3schools.com/css/default.asp" class="card-text"><small class="text-muted" width="200px" height="200px">more infos.</small></a>
     </div>
   </div>
-  <div class="card">
+  <div id="jscard" class="card">
     <img src="img/js.png" class="card-img-top" alt="..." width="200px" height="200px">
     <div class="card-body">
-      <h5 class="card-title">javascript</h5>
+      <h5 id="jscardtitle" class="card-title">javascript</h5>
+      <script>
+        document.getElementById("jscardtitle").addEventListener("mouseover", mouseOver);
+        document.getElementById("jscardtitle").addEventListener("mouseout", mouseOut);
+
+        function mouseOver() {
+          document.getElementById("jscardtitle").style.color = "#f8685f";
+        }
+
+        function mouseOut() {
+          document.getElementById("jscardtitle").style.color = "white";
+        }
+      </script>
       <p class="card-text">Web Development.<br>
         Web Applications.<br>
         Presentations.<br>
@@ -64,10 +104,22 @@
       <a class="infolink" href="https://www.w3schools.com/js/default.asp" class="card-text"><small class="text-muted">more infos.</small></a>
     </div>
   </div>
-  <div class="card">
+  <div id="pycard" class="card">
     <img src="img/python.png" class="card-img-top" alt="..." width="200px" height="200px">
     <div class="card-body">
-      <h5 class="card-title">python</h5>
+      <h5 id="pycardtitle" class="card-title">python</h5>
+      <script>
+        document.getElementById("pycardtitle").addEventListener("mouseover", mouseOver);
+        document.getElementById("pycardtitle").addEventListener("mouseout", mouseOut);
+
+        function mouseOver() {
+          document.getElementById("pycardtitle").style.color = "#f8685f";
+        }
+
+        function mouseOut() {
+          document.getElementById("pycardtitle").style.color = "white";
+        }
+      </script>
       <p class="card-text">Applications.<br>
       Multiple Programming paradigms.<br>
       Robust Library.<br>
@@ -81,6 +133,10 @@
 </div>
 </section>
 
+                   <!-- SECTION 2 -->
+<section id="sezione2">
+
+</section>
 
 
 
@@ -89,6 +145,6 @@
 
 
 
-  <script type="text/javascript" src="clicker.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
